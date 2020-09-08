@@ -1,10 +1,11 @@
-.hero {
+.Hero {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
 }
-.hero h1 {
+.Hero h1 {
     font-weight: lighter;
     text-align: center;
     letter-spacing: -2;

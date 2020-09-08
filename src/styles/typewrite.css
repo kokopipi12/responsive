@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
 .Typewriter{
     color: white;
     width: 24em;
@@ -10,6 +12,7 @@
    font-size: 50px;
    font-family: monospace;
    position: relative;
+   font-family: 'Antic Slab', serif;
    
 }
 
@@ -48,6 +51,4 @@
     }
 }
 
-.header {
-    margin-top: 20%;
-}
+

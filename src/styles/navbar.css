@@ -39,15 +39,15 @@ nav #menu li {
     -moz-transition: all 0.3s ease-out;
     margin-right: 50px;
 }
-/* cover zoom */
-/* a  {
+cover zoom
+a  {
     text-decoration: none;
     color: white;
 }
 
 a:hover {
     font-size: 20px;
-} */
+}
 
 nav #menu li .span {
     font-weight: 700;

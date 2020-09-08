@@ -1,0 +1,29 @@
+h6 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.vertical {
+    margin-top: 40px;
+    border-left: 1px solid #ffffff;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+}
+
+.project {
+    height: 500px;
+}
+
+.project1 {
+    background: url("../gambar/WhatsApp\ Image\ 2020-09-08\ at\ 17.12.01.jpeg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project2 {
+    background: url("../gambar/mery2.jpeg") no-repeat 30% 20%;
+    background-size: cover;
+}
