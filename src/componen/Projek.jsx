@@ -15,7 +15,7 @@ const Projek  = () => {
                 
                             <div className="col-lg-8"></div>
             <div className="col-lg-4 project project1" onClick="location.href='project.html"></div>
-
+            
             </div>
             <div className="whitespace"></div>
 
@@ -40,7 +40,7 @@ const Projek  = () => {
                     <div className="row">
                     <div className="col-lg-1"></div>
 
-                    <div className="col-lg-5 project project3" onClick="location.href='project.html"></div> 
+                    <div className="col-lg-5 project project4" onClick="location.href='project.html"></div> 
 
                     <div className="col-lg-6"></div>
                     </div>

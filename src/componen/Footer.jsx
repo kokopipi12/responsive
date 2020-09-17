@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/footer.css"
+import "../styles/footersection.css"
 const Footer = () => {
     return ( 
                 <div className="Footer">
@@ -12,7 +13,6 @@ const Footer = () => {
                                 <div className="col-lg-12">
                                     <p className="kancut">Got an interesting projest? I Can Help You.</p>
                                 </div>
-                            </div>
                         </div>
                                 <br></br>
                                     <div className="hr">
@@ -46,8 +46,9 @@ const Footer = () => {
                                     </div>
 
                                 </div>
-                            </div>
-                    </div>
+                        </div>
+                 </div>
+                 </div>
 
                 </div>
 
