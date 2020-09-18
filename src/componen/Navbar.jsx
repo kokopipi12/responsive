@@ -22,6 +22,7 @@ const Navbar = () => {
     </nav>
         <div id="resize">
         <div className="close-btn">close</div>
+        
         <ul id="menu">
             <li><a href="indek.html">home<span>.</span></a></li>
             <li><a href="work.html">work<span>.</span></a></li>

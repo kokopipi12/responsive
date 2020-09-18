@@ -2,11 +2,11 @@ import React from 'react';
 import "../styles/footer.css"
 import "../styles/footersection.css"
 const Footer = () => {
-    return ( 
+    return (
                 <div className="Footer">
                     <div className="Container">
 
-                        <br></br><br></br>
+                        <br></br>
 
                         <div className="collab">
                             <div className="row">
@@ -14,35 +14,41 @@ const Footer = () => {
                                     <p className="kancut">Got an interesting projest? I Can Help You.</p>
                                 </div>
                         </div>
+
                                 <br></br>
                                     <div className="hr">
                                         <div className="Row"></div>
                                     </div>
 
-                                    <br></br><br></br>
+                                    <br></br>
 
                             <div className="info">
                                 <div className="Row">
                                     <div className="col-lg-4" id="personal">
-                                        <p>Tetap tersambung sama gw ya</p>
-                                        <h4>ig @Mr.Ko</h4>
-                                        <br></br><br></br>
+
+                                        <p className="kancut">Tetap tersambung sama gw ya</p>
+                                        <h4 class="wow fadeInUp" data-wow-delay="0.2s">ig @Mr.Ko</h4>
+                                        <br></br>
                                     </div>
                                     <div className="col-lg-4" id="media">
-                                        <p>Kepoin Sosmed Gue ya!!</p>
-                                        
+
+                                        <p classname="kancut" data-wow-delay="0s">Kepoin Sosmed Gue ya!!</p>
+
                                         <ul>
-                                            <li id="FB">FB</li>
-                                            <li id="IG">IG</li>
-                                            <li id="TW">TW</li>
-                                            <li id="YT">YT</li>
+                                            <li id="fb" classname="kancut" data-wow-delay="0.4s">FB</li>
+                                            <li id="ig" classname="kancut" data-wow-delay="0.6s">IG</li>
+                                            <li id="tw" classname="kancut" data-wow-delay="0.8s">TW</li>
+                                            <li id="yt" classname="kancut" data-wow-delay="1s">YT</li>
+                                            
                                         </ul>
-                                        <br></br><br></br>
+
+
+                                        <br></br>
                                     </div>
-                                    <div className="col-lg-4" id="Addres">
-                                        <p>Say Hello</p>
-                                        <h4>Kokopipi87@gmail.com</h4>
-                                        <br></br><br></br>
+                                    <div className="col-lg-4" id="Address">
+                                        <p classname="kancut" data-wow-delay="0s">Say Hello</p>
+                                        <h4 classname="kancut" data-wow-delay="0.2s">Kokopipi87@gmail.com</h4>
+                                        <br></br>
                                     </div>
 
                                 </div>
@@ -57,5 +63,5 @@ const Footer = () => {
 
      );
 }
- 
+
 export default Footer;
